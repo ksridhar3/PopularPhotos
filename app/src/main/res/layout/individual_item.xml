@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/userprofileimage"
+            android:scaleType="fitCenter"
+            app:riv_corner_radius="10dip"
+            app:riv_border_width="2dip"
+            app:riv_border_color="#333333"
+            app:riv_mutate_background="true"
+            app:riv_tile_mode="repeat"
+            app:riv_oval="true" />
+        <TextView
+            android:id="@+id/username_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/userprofileimage"
+            android:layout_alignTop="@id/userprofileimage"
+            android:layout_alignBaseline="@id/userprofileimage"
+            android:text="username"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userprofileimage"
+            android:id="@+id/instaImage"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id ="@+id/love_icon"
+            android:layout_below="@id/instaImage"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/likecount"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:layout_toRightOf="@id/love_icon"
+            android:layout_alignTop="@id/love_icon"
+            android:layout_alignBottom="@id/love_icon"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="likes"
+            android:id="@+id/likes_text"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:layout_alignTop="@id/likecount"
+            android:layout_alignBottom="@id/likecount"
+            android:layout_toRightOf="@id/likecount"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/likecount"
+            android:id="@+id/caption"/>
+</RelativeLayout>
