@@ -15,7 +15,7 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [O] Like count and user profile image is displayed.
-* [X] Relative time stamp display.
+* [ ] Relative time stamp display.
 
 The following **advanced** features are implemented:
 
@@ -23,11 +23,11 @@ The following **advanced** features are implemented:
 
 * [O] User profile image is displayed using a round image view.
 
-* [X] Improve the user interface using styling and coloring.
+* [ ] Improve the user interface using styling and coloring.
 
-* [X] Show latest comment for each photo.
+* [ ] Show latest comment for each photo.
 
-* [X] Add pull to refresh for popular stream with SwipeRefreshLayout
+* [ ] Add pull to refresh for popular stream with SwipeRefreshLayout
 
 
 
@@ -46,7 +46,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2015] [Kocharlakota Sridhar]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
